@@ -95,6 +95,7 @@ def main():
 
         if command in ["close", "exit"]: # обробляє команди close, exit
             print("Good bye!")
+            save_data(book)
             break
         elif command == "hello": # обробляє команду hello
             print("How can I help you?")
